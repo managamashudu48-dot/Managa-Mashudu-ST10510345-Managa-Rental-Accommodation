@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://varsity-bakery.netlify.app/</loc></url>
-  <url><loc>https://varsity-bakery.netlify.app/about</loc></url>
-  <url><loc>https://varsity-bakery.netlify.app/products</loc></url>
-  <url><loc>https://varsity-bakery.netlify.app/gallery</loc></url>
-  <url><loc>https://varsity-bakery.netlify.app/enquiry</loc></url>
-  <url><loc>https://varsity-bakery.netlify.app/contact</loc></url>
+
+    <url>
+        <loc>https://YOUR-PUBLISHED-DOMAIN/</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-PUBLISHED-DOMAIN/services.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-PUBLISHED-DOMAIN/enquiry.html</loc>
+    </url>
+
+    <url>
+        <loc>https://YOUR-PUBLISHED-DOMAIN/contact.html</loc>
+    </url>
+
 </urlset>

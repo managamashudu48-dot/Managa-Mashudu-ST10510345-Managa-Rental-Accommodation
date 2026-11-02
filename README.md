@@ -1,100 +1,127 @@
-# Varsity Bakery Website
+# Managa Rental Accommodation Website
 
-## Project
-Varsity Bakery website for the WEDE5020 Web Development (Introduction) POE.
+## 1. Project Overview
 
-## Student Information
-Student name: Nhlangano
-Student number: ST10526531
+Managa Rental Accommodation is a website developed to provide information about accommodation options for students, families and working professionals.
 
-## Project Overview
-This website is a simple website for Varsity Bakery in Menlopark, Pretoria. It gives visitors information about the bakery, menu categories, gallery images, enquiries and contact details.
+The website allows visitors to learn about the accommodation, explore available services, submit enquiries and find contact information.
 
-## Website Goals and Objectives
-- Make bakery information easy to find.
-- Show the main menu categories.
-- Make customer enquiries easier.
-- Give customers contact and delivery information.
-- Make the website easy to use on desktop, tablet and mobile.
+## 2. Project Objectives
 
-## Pages
-1. Home - index.html
-2. About Us - about.html
-3. Products/Menu - products.html
-4. Gallery - gallery.html
-5. Enquiry - enquiry.html
-6. Contact - contact.html
+The main objectives are:
 
-## Main Features
-### Part 2
-- External CSS stylesheet.
-- Consistent colours, fonts and spacing.
-- Flexbox and CSS Grid layouts.
-- Hover and focus states.
-- Desktop, tablet and mobile breakpoints.
-- Responsive images using picture, srcset and sizes.
-- Simple layout that is easy to read.
+* Create a professional and user-friendly accommodation website.
+* Provide information about Managa Rental Accommodation.
+* Display accommodation photographs.
+* Allow visitors to explore accommodation services.
+* Provide an enquiry form.
+* Display contact details and location information.
+* Support desktop, tablet and mobile devices.
 
-### Part 3
-- JavaScript product search/filter.
-- Gallery lightbox.
-- FAQ accordion using HTML details/summary.
-- Leaflet map with the bakery store and an approximate delivery service area.
-- Enquiry form validation and response.
-- Contact form validation and mailto email preparation.
-- SEO title tags and meta descriptions.
-- Descriptive image alt text.
-- robots.txt and sitemap.xml.
-- Internal links between pages.
+## 3. Technologies Used
 
+The project uses:
 
-## Part 2 Responsive Testing
-The CSS uses:
-- Desktop layout above 900px.
-- Tablet layout at 900px and below.
-- Mobile layout at 600px and below.
-- rem, em, %, vw and clamp() where suitable.
-- Responsive image srcset/sizes.
+* HTML5 – Website structure and content.
+* CSS3 – Styling, colours and responsive layouts.
+* JavaScript – Interactive website features and form validation.
+* Visual Studio Code – Development environment.
+* Git – Version control.
+* GitHub – Source code hosting.
 
-Browser evidence is included in `screenshots/` showing:
-- Desktop view
-- Tablet view
-- Mobile view
+## 4. Website Pages
 
-The screenshots were captured from the local site in Chromium at 1440px, 768px and 390px widths.
+The website contains the following pages:
 
-## Part 3 Notes
-The enquiry form gives a response after successful validation. It does not show fixed menu prices because prices can change.
+1. Home – Introduction to Managa Rental Accommodation.
+2. About Us – Company information, mission, vision and values.
+3. Services – Accommodation options and services.
+4. Enquiry – Accommodation enquiry form.
+5. Contact – Contact information and location.
+6. Sitemap – Website navigation and page links.
 
-Both forms validate input and submit asynchronously to Netlify Forms. Submission failures retain entries and offer a retry. A successful contact submission also provides an optional prepared email addressed to:
-admin@varsitybakery.co.za
+## 5. Main Features
 
-The map uses Leaflet and OpenStreetMap. The second map item is an approximate nearby delivery service area, not a second bakery branch.
+* Consistent blue-and-white website design.
+* Managa Rental Accommodation branding.
+* Accommodation photographs.
+* Responsive navigation.
+* Responsive website layouts.
+* Accommodation search functionality.
+* Interactive FAQ section, where implemented.
+* Form validation.
+* Google Maps location information, where implemented.
+* Social media links, where business accounts are available.
 
-## Deployment
-Published website: https://varsity-bakery.netlify.app/
+## 6. Project Folder Structure
 
-Netlify detects the two HTML forms on deployment. Submissions are available in the site’s Forms dashboard. The optional email-copy link requires a configured email application. The sitemap, robots.txt and canonical URLs use the published domain.
+```text
+ST10510345/
+│
+├── css/
+│   └── style.css
+│
+├── images/
+│   ├── accommodation-large.jpeg
+│   ├── accommodation-medium.jpeg
+│   ├── accommodation-small.jpeg
+│   └── other accommodation images
+│
+├── js/
+│   └── script.js
+│
+├── index.html
+├── about us.html
+├── services.html
+├── enquiry.html
+├── contact.html
+├── sitemap.html
+├── robots.txt
+├── sitemap.xml
+└── README.md
+```
 
-## References
-Varsity Bakery. (2026). Varsity Bakery. https://varsitybakery.co.za/
+## 7. How to Run the Website
 
-Varsity Bakery. (2026). Terms and Conditions. https://varsitybakery.co.za/terms-conditions/
+1. Download or clone the project repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in a browser.
+4. Alternatively, use the Live Server extension in Visual Studio Code.
+5. Navigate through the website using the navigation menu.
 
-Leaflet. (2026). Leaflet JavaScript library. https://leafletjs.com/
+## 8. Testing
 
-OpenStreetMap. (2026). OpenStreetMap. https://www.openstreetmap.org/
+The website should be tested for:
 
-Project proposal and research documents from Part 1 are retained in the original Part 1 submission.
+* Navigation links.
+* Image loading.
+* Responsive layouts.
+* Accommodation search functionality.
+* Form validation.
+* Sitemap links.
+* Contact information.
+* Social media links.
 
-## Part 3 compliance update
-- Added menu sorting (menu order, A–Z and Z–A), result counts and a no-JavaScript category summary.
-- Connected enquiry and contact forms to Netlify Forms with URL-encoded AJAX POST requests, honeypot spam prevention, pending/success/failure states and duplicate-submit prevention.
-- Kept the required contact email preparation as an optional link after submission. Enquiry responses include delivery/pickup information; prices require confirmation.
-- Added keyboard lightbox activation, modal focus handling, skip links, current-page navigation and accessible form feedback.
-- Added CSS transitions, animated dynamic results and JavaScript scroll reveals with reduced-motion support.
-- Corrected sitemap/robots URLs, added canonical URLs and Bakery structured data with the supplied business address and contact details.
-- Limited Leaflet loading to Contact, added image dimensions and lazy-loaded non-hero images, and added cache/security headers.
+Testing must be performed on desktop and mobile screen sizes.
 
-## Keyword and local-search rationale
-The chosen phrases are “Varsity Bakery”, “Menlopark bakery”, “bakery Pretoria”, “breakfast”, “sandwiches”, “delivery” and “pickup”. They reflect the business name, supplied location, menu categories and customer actions. Relevant phrases appear naturally in page titles, descriptions, headings and content. This is a content-based keyword selection, not a claim of measured search-volume research. Contact includes the consistent business address, phone and Bakery structured data. No unverified opening hours, ratings or prices were added.
+## 9. Version Control
+
+Git is used to track project changes.
+
+GitHub is used to host the project source code and maintain its development history.
+
+## 10. Future Improvements
+
+Possible future improvements include:
+
+* Online accommodation bookings.
+* Secure enquiry processing.
+* Additional accommodation photographs.
+* Customer feedback and reviews.
+* More interactive website features.
+
+## 11. Conclusion
+
+Managa Rental Accommodation provides an accessible online platform where visitors can explore accommodation information, view services and contact the business.
+
+The project demonstrates the use of HTML, CSS, JavaScript and version control in developing a multi-page website.

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Managa Rental Accommodation</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta
+    name="description"
+    content="Explore accommodation information for students, families and working professionals.">
+
+</head>
+
+<body>
+
+    <!--Website Header-->
+
+   <header class="site-header">
+       <div class="brand">
+            <img src="images/managa-house-logo.png"
+                 alt="Managa Rental Accommodation">
+
+    <div class="brand-text">
+        <span class="brand-name">MANAGA</span>
+        <span class="brand-subtitle">RENTAL ACCOMMODATION</span>
+    </div>
+</header>
+
+    <!--Navigation Menu-->
+
+    <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a  href="about us.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Sitemap</a>
+    </nav>
+
+    <!--Main Content-->
+
+    <main>
+
+        <section>
+    <h2>Our Accommodation Services</h2>
+
+    <p>
+        Managa Rental Accommodation offers comfortable and convenient
+        accommodation options for students, families and working
+        professionals.
+    </p>
+<!-- Accommodation Image Gallery -->
+<section class="gallery-section">
+
+    <h2>Our Accommodation Gallery</h2>
+
+    <p>Explore pictures of our accommodation facilities.</p>
+
+    <div class="gallery-grid">
+
+        <button class="gallery-item" type="button">
+            <img src="images/accommodation.jpg 2.jpeg"
+                 alt="Managa accommodation exterior">
+        </button>
+
+        <button class="gallery-item" type="button">
+            <img src="images/accommodation.jpg 3.jpeg"
+                 alt="Accommodation bathroom">
+        </button>
+
+        <button class="gallery-item" type="button">
+            <img src="images/accommodation.jpg 4.jpeg"
+                 alt="Accommodation kitchen">
+        </button>
+
+        <button class="gallery-item" type="button">
+            <img src="images/accommodation.jpg.jpeg"
+                 alt="Managa accommodation buildings">
+        </button>
+
+    </div>
+
+</section>
+
+<!-- Lightbox Popup -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+
+    <button class="lightbox-close" type="button"
+            aria-label="Close gallery">&times;</button>
+
+    <button class="lightbox-prev" type="button"
+            aria-label="Previous image">&#10094;</button>
+
+    <img id="lightbox-image" src="" alt="Enlarged accommodation photograph">
+
+    <button class="lightbox-next" type="button"
+            aria-label="Next image">&#10095;</button>
+
+</div>
+
+    <div class="service-search">
+
+    <label for="serviceSearch">
+        Search accommodation options
+    </label>
+
+    <input
+        type="search"
+        id="serviceSearch"
+        placeholder="Search student, family or professional accommodation">
+
+    <p id="searchMessage" aria-live="polite">
+        Showing all accommodation options.
+    </p>
+
+</div>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            
+            <picture>
+    <source
+        media="(max-width: 480px)"
+        srcset="images/accommodation-small.jpeg">
+
+    <source
+        media="(max-width: 768px)"
+        srcset="images/accommodation-medium.jpeg">
+
+    <img
+        src="images/accommodation-large.jpeg"
+        srcset="
+            images/accommodation-small.jpeg 480w,
+            images/accommodation-medium.jpeg 800w,
+            images/accommodation-large.jpeg 1200w"
+        sizes="(max-width: 480px) 96vw,
+               (max-width: 768px) 94vw,
+               30vw"
+        alt="Student accommodation">
+</picture>
+
+            <h3>Student Accommodation</h3>
+
+            <p>
+                Safe and affordable accommodation for students looking
+                for a comfortable place to stay.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/accommodation.jpg.jpeg"
+                 alt="Family accommodation">
+
+            <h3>Family Accommodation</h3>
+
+            <p>
+                Comfortable and spacious accommodation suitable for
+                families and their everyday needs.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/accommodation-medium.jpeg"
+                 alt="Professional accommodation">
+
+            <h3>Professional Accommodation</h3>
+
+            <p>
+                Convenient accommodation for working professionals
+                looking for a comfortable place to stay.
+            </p>
+        </div>
+
+    </div>
+
+    <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+
+        <h3>
+            <button
+                type="button"
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-1">
+                What accommodation options do you offer?
+            </button>
+        </h3>
+
+        <div id="faq-answer-1" hidden>
+            <p>
+                Our website presents accommodation information
+                for students, families and working professionals.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="faq-item">
+
+        <h3>
+            <button
+                type="button"
+                class="faq-question"
+                aria-expanded="false"
+                aria-controls="faq-answer-2">
+                How can I enquire about accommodation?
+            </button>
+        </h3>
+
+        <div id="faq-answer-2" hidden>
+            <p>
+                Visit our Enquiry page and complete the form
+                with your accommodation requirements.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+
+    <ul>
+        <li>Comfortable accommodation options</li>
+        <li>Affordable rental options</li>
+        <li>Accommodation for students and families</li>
+        <li>Accommodation for working professionals</li>
+        <li>Easy accommodation enquiries</li>
+    </ul>
+
+    <p>
+        If you are interested in our accommodation, please visit our
+        <a href="enquiry.html">Enquiry page</a> to send us your requirements.
+    </p>
+</section>
+   
+
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+
+        <p>
+            &copy; 2018 Managa Rental Accommodation
+        </p>
+
+    </footer>
+
+    <script src="js/script.js" defer></script>
+    
+</body>
+
+</html>

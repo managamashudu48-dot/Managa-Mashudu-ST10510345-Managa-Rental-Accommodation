@@ -1,40 +1,207 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="Contact Varsity Bakery in Menlopark, Pretoria by phone, email or the enquiry form.">
-			<meta name="keywords" content="Varsity Bakery, bakery Pretoria, Menlopark bakery, fresh meals, bakery products">
-			<title>Varsity Bakery | Contact Us</title>
-			<link rel="stylesheet" href="css/style.css">
-			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-	 </head>
-	 <body>
-			<header class="site-header"><div class="container header-inner">
-						<div><a class="logo" href="index.html">Varsity Bakery</a><p class="tagline">Fresh and affordable bakery products in Menlopark, Pretoria.</p></div><nav aria-label="Main navigation"><ul>
-									<li><a class="" href="index.html">Home</a></li>
-									<li><a class="" href="about.html">About Us</a></li>
-									<li><a class="" href="products.html">Products/Menu</a></li>
-									<li><a class="" href="gallery.html">Gallery</a></li>
-									<li><a class="" href="enquiry.html">Enquiry</a></li>
-									<li><a class="active" href="contact.html">Contact</a></li>
-							 </ul></nav>
-				 </div></header>
-				 <main><div class="container page-title"><h1>Contact Us</h1><p>Get in touch with Varsity Bakery.</p></div>
-						<section class="section"><div class="container">
-									<div class="locations"><div class="location-card"><h2>Main Store</h2><p><strong>Address:</strong> 309 Lynwood Rd, Menlopark, Pretoria, 0081</p><p><strong>Telephone:</strong> 064 632 2699</p><p><strong>Email:</strong> admin@varsitybakery.co.za</p></div>
-										 <div class="location-card"><h2>Delivery Area</h2><p>Delivery is available in selected nearby areas. Delivery fees start from R15 for nearby areas and from R30 for areas outside the immediate area.</p><p><strong>Delivery hours:</strong> 10:00–18:00</p><p><strong>Note:</strong> This is a service area, not a second branch.</p></div></div>
-									<h2>Map</h2><div id="map" class="map" aria-label="Map showing the Varsity Bakery store and delivery service area"></div>
-									<h2>General Contact Form</h2>
-									<form id="contactForm" action="mailto:admin@varsitybakery.co.za" method="post" enctype="text/plain" novalidate>
-										 <div class="form-group"><label for="contactName">Name</label><input id="contactName" name="name" type="text" minlength="2" required><div class="error" id="contactNameError"></div></div>
-										 <div class="form-group"><label for="contactEmail">Email</label><input id="contactEmail" name="email" type="email" required><div class="error" id="contactEmailError"></div></div>
-										 <div class="form-group"><label for="contactPhone">Phone number</label><input id="contactPhone" name="phone" type="tel" pattern="[0-9 +()-]{7,20}" required><div class="error" id="contactPhoneError"></div></div>
-										 <div class="form-group"><label for="messageType">Message type</label><select id="messageType" name="message_type" required><option value="">Choose one</option><option>General enquiry</option><option>Feedback</option><option>Delivery question</option><option>Other</option></select><div class="error" id="messageTypeError"></div></div>
-										 <div class="form-group"><label for="contactMessage">Full message</label><textarea id="contactMessage" name="message" rows="6" minlength="10" required></textarea><div class="error" id="contactMessageError"></div></div>
-										 <button class="btn" type="submit">Prepare Email</button>
-									</form><p id="contactResult" class="success" hidden></p>
-							 </div></section>
-				 </main>
-				 <footer class="site-footer"><div class="container"><p>&copy; 2026 Varsity Bakery.</p><p><a href="contact.html">Contact us</a> | <a href="enquiry.html">Make an enquiry</a></p></div></footer>
-				 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-				 <script src="js/script.js"></script>
-	 </body></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us -Managa Rental Accommodation</title>
+
+    <meta
+    name="description"
+    content="Explore accommodation information for students, families and working professionals.">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+   <!-- Website Header -->
+
+    <header class="site-header">
+         <div class="brand">
+            <img src="images/managa-house-logo.png"
+                 alt="Managa Rental Accommodation">
+         
+
+    <div class="brand-text">
+        <span class="brand-name">MANAGA</span>
+        <span class="brand-subtitle">RENTAL ACCOMMODATION</span>
+    </div>
+</header>
+
+     <!-- Navigation Menu -->
+
+    <nav class="site-nav">
+        <a href="index.html">Home</a> 
+        <a href="about.html">About Us</a> 
+        <a href="services.html">Services</a> 
+        <a href="enquiry.html">Enquiry</a> 
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Sitemap</a>
+
+    </nav>
+
+      <!-- Main Content -->
+
+    <main>
+
+        <h2>Contact Us</h2>
+
+        <p>
+            If you have any questions about our accommodation,
+            please contact Managa Rental Accommodation using
+            the information below.
+        </p>
+
+            <!-- Contact Information -->
+
+          <section>
+    <h2>Contact Us</h2>
+
+    <div class="contact-cards">
+
+        <div class="contact-card">
+            <h3>📞 Phone</h3>
+            <p>072 910 2926</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>📧 Email</h3>
+            <p>managarental2018@gmail.co.za</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>🕒 Business Hours</h3>
+            <p>Monday - Friday: 08:00 - 17:00</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>📍 Location</h3>
+            <p>Ratidili, Louis Trichardt, Limpopo</p>
+        </div>
+
+    </div>
+</section>  
+  
+
+        <!--Contact Links-->
+
+        <h2>Get in Touch</h2>
+
+        <p>
+            You can contact us by phone or email.
+        </p>
+
+        <p>
+            <a href="tel: 072 910 2926">
+                Call Managa Rental Accommodation
+            </a>
+
+        </p>
+
+        <p>
+            <a href="mailto: info@managarentals.co.za">
+                Send us an Email
+            </a>
+
+        </p>
+
+        <!--Enquiry Link-->
+
+        <h2>Looking for Accommodation?</h2>
+
+        <p>
+            If you are looking for accommodation, complete our enquiry form.
+        </p>
+
+        <p>
+            <a href="enquiry.html">
+                Make an Enquiry
+            </a>
+        </p>
+
+       <section>
+
+    <h2>Send Us a Message</h2>
+
+    <p>
+        Have a general question? Complete the form below
+        and tell us how we can assist you.
+    </p>
+
+    <form id="contactForm" action="#" method="post">
+
+        <fieldset>
+
+            <legend>Your Contact Information</legend>
+
+            <label for="contactName">Full Name:</label>
+
+            <input
+                type="text"
+                id="contactName"
+                name="contactName"
+                minlength="2"
+                maxlength="80"
+                autocomplete="name"
+                required>
+
+            <label for="contactEmail">Email Address:</label>
+
+            <input
+                type="email"
+                id="contactEmail"
+                name="contactEmail"
+                autocomplete="email"
+                required>
+
+            <label for="messageType">Type of Message:</label>
+
+            <select id="messageType" name="messageType" required>
+
+                <option value="">Select message type</option>
+                <option value="general">General Question</option>
+                <option value="feedback">Feedback</option>
+                <option value="support">Request for Assistance</option>
+
+            </select>
+
+            <label for="contactMessage">Your Message:</label>
+
+            <textarea
+                id="contactMessage"
+                name="contactMessage"
+                minlength="10"
+                maxlength="1000"
+                required
+                placeholder="Write your message here..."></textarea>
+
+        </fieldset>
+
+        <button type="submit">Validate Message</button>
+
+        <button type="reset">Clear Form</button>
+
+        <p id="formMessage" role="status" aria-live="polite"></p>
+
+    </form>
+
+</section> 
+
+    </main>
+
+    <!--Footer-->
+
+    <footer>
+        <p>
+            &copy; 2018 Managa Rental Accommodation
+        </p>
+
+    </footer>
+
+    <script src="js/script.js" defer></script>
+ 
+    
+</body>
+
+</html>
