@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#fff4e6"/><circle cx="400" cy="270" r="120" fill="#e9b37a"/><circle cx="400" cy="240" r="105" fill="#fffaf2" stroke="#8b5e3c" stroke-width="8"/>
+<path d="M330 175 Q400 120 470 175" fill="none" stroke="#d98b45" stroke-width="24"/>
+<text x="400" y="425" text-anchor="middle" font-family="Arial" font-size="34" fill="#6b432c">Bakery Product</text>
+</svg>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="Contact Varsity Bakery in Menlopark, Pretoria by phone, email or the enquiry form.">
+			<meta name="keywords" content="Varsity Bakery, bakery Pretoria, Menlopark bakery, fresh meals, bakery products">
+			<title>Varsity Bakery | Contact Us</title>
+			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+	 </head>
+	 <body>
+			<header class="site-header"><div class="container header-inner">
+						<div><a class="logo" href="index.html">Varsity Bakery</a><p class="tagline">Fresh and affordable bakery products in Menlopark, Pretoria.</p></div><nav aria-label="Main navigation"><ul>
+									<li><a class="" href="index.html">Home</a></li>
+									<li><a class="" href="about.html">About Us</a></li>
+									<li><a class="" href="products.html">Products/Menu</a></li>
+									<li><a class="" href="gallery.html">Gallery</a></li>
+									<li><a class="" href="enquiry.html">Enquiry</a></li>
+									<li><a class="active" href="contact.html">Contact</a></li>
+							 </ul></nav>
+				 </div></header>
+				 <main><div class="container page-title"><h1>Contact Us</h1><p>Get in touch with Varsity Bakery.</p></div>
+						<section class="section"><div class="container">
+									<div class="locations"><div class="location-card"><h2>Main Store</h2><p><strong>Address:</strong> 309 Lynwood Rd, Menlopark, Pretoria, 0081</p><p><strong>Telephone:</strong> 064 632 2699</p><p><strong>Email:</strong> admin@varsitybakery.co.za</p></div>
+										 <div class="location-card"><h2>Delivery Area</h2><p>Delivery is available in selected nearby areas. Delivery fees start from R15 for nearby areas and from R30 for areas outside the immediate area.</p><p><strong>Delivery hours:</strong> 10:00–18:00</p><p><strong>Note:</strong> This is a service area, not a second branch.</p></div></div>
+									<h2>Map</h2><div id="map" class="map" aria-label="Map showing the Varsity Bakery store and delivery service area"></div>
+									<h2>General Contact Form</h2>
+									<form id="contactForm" action="mailto:admin@varsitybakery.co.za" method="post" enctype="text/plain" novalidate>
+										 <div class="form-group"><label for="contactName">Name</label><input id="contactName" name="name" type="text" minlength="2" required><div class="error" id="contactNameError"></div></div>
+										 <div class="form-group"><label for="contactEmail">Email</label><input id="contactEmail" name="email" type="email" required><div class="error" id="contactEmailError"></div></div>
+										 <div class="form-group"><label for="contactPhone">Phone number</label><input id="contactPhone" name="phone" type="tel" pattern="[0-9 +()-]{7,20}" required><div class="error" id="contactPhoneError"></div></div>
+										 <div class="form-group"><label for="messageType">Message type</label><select id="messageType" name="message_type" required><option value="">Choose one</option><option>General enquiry</option><option>Feedback</option><option>Delivery question</option><option>Other</option></select><div class="error" id="messageTypeError"></div></div>
+										 <div class="form-group"><label for="contactMessage">Full message</label><textarea id="contactMessage" name="message" rows="6" minlength="10" required></textarea><div class="error" id="contactMessageError"></div></div>
+										 <button class="btn" type="submit">Prepare Email</button>
+									</form><p id="contactResult" class="success" hidden></p>
+							 </div></section>
+				 </main>
+				 <footer class="site-footer"><div class="container"><p>&copy; 2026 Varsity Bakery.</p><p><a href="contact.html">Contact us</a> | <a href="enquiry.html">Make an enquiry</a></p></div></footer>
+				 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+				 <script src="js/script.js"></script>
+	 </body></html>

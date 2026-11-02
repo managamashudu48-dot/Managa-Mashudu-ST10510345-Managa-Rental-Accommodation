@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#f5eadc"/><ellipse cx="400" cy="285" rx="210" ry="120" fill="#fff" stroke="#8b5e3c" stroke-width="10"/>
+<circle cx="330" cy="270" r="55" fill="#d98b45"/><circle cx="460" cy="270" r="55" fill="#e7a85d"/>
+<text x="400" y="430" text-anchor="middle" font-family="Arial" font-size="34" fill="#6b432c">Fresh Meal</text>
+</svg>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="Send a product and delivery enquiry to Varsity Bakery.">
+			<meta name="keywords" content="Varsity Bakery, bakery Pretoria, Menlopark bakery, fresh meals, bakery products">
+			<title>Varsity Bakery | Enquiry</title>
+			<link rel="stylesheet" href="css/style.css">
+	 <link rel="canonical" href="https://varsity-bakery.netlify.app/enquiry">
+</head>
+	 <body><a class="skip-link" href="#main">Skip to content</a>
+			<header class="site-header"><div class="container header-inner">
+						<div><a class="logo" href="index.html">Varsity Bakery</a><p class="tagline">Fresh and affordable bakery products in Menlopark, Pretoria.</p></div><nav aria-label="Main navigation"><ul>
+									<li><a class="" href="index.html">Home</a></li>
+									<li><a class="" href="about.html">About Us</a></li>
+									<li><a class="" href="products.html">Products/Menu</a></li>
+									<li><a class="" href="gallery.html">Gallery</a></li>
+									<li><a aria-current="page" class="active" href="enquiry.html">Enquiry</a></li>
+									<li><a class="" href="contact.html">Contact</a></li>
+							 </ul></nav>
+				 </div></header>
+				 <main id="main"><div class="container page-title"><h1>Product Enquiry</h1><p>Ask about a product, order option or delivery.</p></div>
+						<section class="section"><div class="container">
+									<form id="enquiryForm" name="enquiry" action="/thank-you" method="post" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="enquiry"><p class="honeypot" aria-hidden="true"><label>Leave this blank<input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+										 <div class="form-group"><label for="enquiryName">Name</label><input id="enquiryName" aria-describedby="enquiryNameError" name="name" type="text" minlength="2" maxlength="100" required><div class="error" id="enquiryNameError"></div></div>
+										 <div class="form-group"><label for="enquiryEmail">Email</label><input id="enquiryEmail" aria-describedby="enquiryEmailError" name="email" type="email" maxlength="254" required><div class="error" id="enquiryEmailError"></div></div>
+										 <div class="form-group"><label for="enquiryProduct">What are you asking about?</label><select id="enquiryProduct" aria-describedby="enquiryProductError" name="product" required><option value="">Choose one</option><option>Breakfast</option><option>Sandwiches</option><option>Burgers</option><option>Chicken</option><option>Other menu item</option></select><div class="error" id="enquiryProductError"></div></div>
+										 <div class="form-group"><label for="enquiryMethod">Delivery or pickup?</label><select id="enquiryMethod" aria-describedby="enquiryMethodError" name="method" required><option value="">Choose one</option><option value="delivery">Delivery</option><option value="pickup">Pickup</option></select><div class="error" id="enquiryMethodError"></div></div>
+										 <div class="form-group"><label for="enquiryMessage">Message</label><textarea id="enquiryMessage" aria-describedby="enquiryMessageError" name="message" rows="5" minlength="10" maxlength="3000" required></textarea><div class="error" id="enquiryMessageError"></div></div>
+										 <button class="btn" type="submit">Send Enquiry</button>
+									</form><div id="enquiryResult" class="success" role="status" aria-live="polite" tabindex="-1" hidden></div>
+							 </div></section></main>
+							 <footer class="site-footer"><div class="container"><p>&copy; 2026 Varsity Bakery.</p><p><a href="contact.html">Contact us</a> | <a href="enquiry.html">Make an enquiry</a></p></div></footer>
+							 <script src="js/script.js"></script>
+	 </body></html>
+contact.html
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="Contact Varsity Bakery in Menlopark, Pretoria by phone, email or the enquiry form.">
+			<meta name="keywords" content="Varsity Bakery, bakery Pretoria, Menlopark bakery, fresh meals, bakery products">
+			<title>Varsity Bakery | Contact Us</title>
+			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+	 <link rel="canonical" href="https://stirring-kashata-fdd2c4.netlify.app/contact">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Bakery", "name": "Varsity Bakery", "url": "https://stirring-kashata-fdd2c4.netlify.app", "telephone": "+27646322699", "email": "admin@varsitybakery.co.za", "address": {"@type": "PostalAddress", "streetAddress": "309 Lynwood Rd", "addressLocality": "Menlopark, Pretoria", "postalCode": "0081", "addressCountry": "ZA"}}</script></head>
+	 <body><a class="skip-link" href="#main">Skip to content</a>
+			<header class="site-header"><div class="container header-inner">
+						<div><a class="logo" href="index.html">Varsity Bakery</a><p class="tagline">Fresh and affordable bakery products in Menlopark, Pretoria.</p></div><nav aria-label="Main navigation"><ul>
+									<li><a class="" href="index.html">Home</a></li>
+									<li><a class="" href="about.html">About Us</a></li>
+									<li><a class="" href="products.html">Products/Menu</a></li>
+									<li><a class="" href="gallery.html">Gallery</a></li>
+									<li><a class="" href="enquiry.html">Enquiry</a></li>
+									<li><a aria-current="page" class="active" href="contact.html">Contact</a></li>
+							 </ul></nav>
+				 </div></header>
+				 <main id="main"><div class="container page-title"><h1>Contact Us</h1><p>Get in touch with Varsity Bakery.</p></div>
+						<section class="section"><div class="container">
+									<div class="locations"><div class="location-card"><h2>Main Store</h2><p><strong>Address:</strong> 309 Lynwood Rd, Menlopark, Pretoria, 0081</p><p><strong>Telephone:</strong> 064 632 2699</p><p><strong>Email:</strong> admin@varsitybakery.co.za</p></div>
+										 <div class="location-card"><h2>Delivery Area</h2><p>Delivery is available in selected nearby areas. Delivery fees start from R15 for nearby areas and from R30 for areas outside the immediate area.</p><p><strong>Delivery hours:</strong> 10:00–18:00</p><p><strong>Note:</strong> This is a service area, not a second branch.</p></div></div>
+									<h2>Map</h2><div id="map" class="map" tabindex="0" aria-label="Map showing the Varsity Bakery store and delivery service area"></div>
+									<p><a href="https://www.openstreetmap.org/?mlat=-25.7563&amp;mlon=28.2789#map=16/-25.7563/28.2789" target="_blank" rel="noopener noreferrer">Open the store location in OpenStreetMap</a></p><h2>General Contact Form</h2><p>Send your message securely. After sending, you can also open a prepared copy in your email app.</p>
+									<form id="contactForm" name="contact" action="/thank-you" method="post" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="contact"><p class="honeypot" aria-hidden="true"><label>Leave this blank<input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+										 <div class="form-group"><label for="contactName">Name</label><input id="contactName" aria-describedby="contactNameError" name="name" type="text" minlength="2" maxlength="100" required><div class="error" id="contactNameError"></div></div>
+										 <div class="form-group"><label for="contactEmail">Email</label><input id="contactEmail" aria-describedby="contactEmailError" name="email" type="email" maxlength="254" required><div class="error" id="contactEmailError"></div></div>
+										 <div class="form-group"><label for="contactPhone">Phone number</label><input id="contactPhone" aria-describedby="contactPhoneError" name="phone" type="tel" pattern="[0-9 +()-]{7,20}" required><div class="error" id="contactPhoneError"></div></div>
+										 <div class="form-group"><label for="messageType">Message type</label><select id="messageType" aria-describedby="messageTypeError" name="message_type" required><option value="">Choose one</option><option>General enquiry</option><option>Feedback</option><option>Delivery question</option><option>Other</option></select><div class="error" id="messageTypeError"></div></div>
+										 <div class="form-group"><label for="contactMessage">Full message</label><textarea id="contactMessage" aria-describedby="contactMessageError" name="message" rows="6" minlength="10" maxlength="3000" required></textarea><div class="error" id="contactMessageError"></div></div>
+										 <button class="btn" type="submit">Send Message</button>
+									</form><a id="contactEmailCopy" class="btn secondary" hidden>Open prepared email</a><p id="contactResult" class="success" role="status" aria-live="polite" tabindex="-1" hidden></p>
+							 </div></section>
+				 </main>
+				 <footer class="site-footer"><div class="container"><p>&copy; 2026 Varsity Bakery.</p><p><a href="contact.html">Contact us</a> | <a href="enquiry.html">Make an enquiry</a></p></div></footer>
+				 <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+				 <script defer src="js/script.js"></script>
+	 </body></html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+<rect width="800" height="500" fill="#f7efe3"/><rect x="80" y="80" width="640" height="340" rx="24" fill="#fffaf2" stroke="#8b5e3c" stroke-width="8"/>
+<text x="400" y="220" text-anchor="middle" font-family="Arial" font-size="54" fill="#6b432c">Varsity Bakery</text>
+<text x="400" y="285" text-anchor="middle" font-family="Arial" font-size="30" fill="#8b5e3c">Fresh Bakery Product</text>
+<path d="M250 350 C300 280 500 280 550 350" fill="none" stroke="#d98b45" stroke-width="28" stroke-linecap="round"/>
+</svg>
